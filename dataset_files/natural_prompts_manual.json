@@ -1,0 +1,162 @@
+{
+    "bbh_date_understanding": [
+        "Infer the date from context. Finish your answer with 'X' where X is the correct letter choice.\n\nQuestion: {input}",
+        "Determine the date based on contextual clues. End your response with 'X', where X represents the correct option.\n\nQuestion: {input}",
+        "Use the given context to deduce the date. Conclude your answer with 'X', X being the right letter choice.\n\nQuestion: {input}"
+    ],
+    "bbh_boolean_expressions": [
+        "Evaluate the result of a random Boolean expression.\n\nQuestion: {input}",
+        "Calculate the outcome of a given Boolean expression.\n\nQuestion: {input}",
+        "Determine the result of the provided Boolean logic statement.\n\nQuestion: {input}"
+    ],
+    "mmlu_pro_math": [
+        "The following are multiple choice questions (with answers) about math. Finish your answer with 'X' where X is the correct letter choice.\n\nQuestion: {input}",
+        "Below are multiple-choice math questions. Conclude your response with 'X', X being the correct option.\n\nQuestion: {input}",
+        "Answer these math multiple-choice questions. Answer with 'X', where X is the right letter choice.\n\nQuestion: {input}"
+    ],
+    "superglue_rte": [
+        "{input}\nQuestion: Is the hypothesis correct based on the premise? Answer True or False.",
+        "{input}\nQuestion: Based on the premise, is the hypothesis accurate? Respond with True or False.",
+        "{input}\nQuestion: Does the premise support the hypothesis? Answer True or False."
+    ],
+    "bbh_temporal_sequences": [
+        "Answer questions about which times certain events could have occurred. Finish your answer with 'X' where X is the correct letter choice.\n\nQ: {input}",
+        "Determine possible occurrence times for specific events. Answer with 'X', X being the correct option.\n\nQ: {input}",
+        "Identify when certain events could have happened. Conclude with 'X', where X is the right letter choice.\n\nQ: {input}"
+    ],
+    "bbh_reasoning_about_colored_objects": [
+        "Answer extremely simple questions about the colors of objects on a surface. Finish your answer with 'X' where X is the correct letter choice.\n\nQ: {input}",
+        "Respond to basic questions about object colors on a surface. Answer with 'X', X being the correct option.\n\nQ: {input}",
+        "Address simple queries regarding the colors of items on a surface. Conclude with 'X', where X is the right letter choice.\n\nQ: {input}"
+    ],
+    "ethics_commonsense": [
+        "{input}\nQuestion: Is this wrong? Answer Yes or No.",
+        "{input}\nQuestion: Is this ethically incorrect? Respond with Yes or No.",
+        "{input}\nQuestion: Does this violate ethical norms? Answer Yes or No."
+    ],
+    "ethics_justice": [
+        "{input}\nQuestion: Would most people believe this reasonable or unreasonable to say? Answer Yes or No.",
+        "{input}\nQuestion: Would the majority consider this statement reasonable or unreasonable? Answer Yes or No.",
+        "{input}\nQuestion: Is this statement generally perceived as reasonable or unreasonable? Respond with Yes or No."
+    ],
+    "glue_mnli": [
+        "{input} True, False or Neither?",
+        "{input} Answer selecting from: True, False, or Neither?",
+        "{input} Choose one as answer: True, False, or Neither?"
+    ],
+    "glue_sst2": [
+        "{input}\nQuestion: Is this sentence positive or negative? Answer positive or negative.",
+        "{input}\nQuestion: Does this sentence convey a positive or negative sentiment? Answer positive or negative.",
+        "{input}\nQuestion: Is the tone of this sentence positive or negative? Respond with positive or negative."
+    ],
+    "glue_qnli": [
+        "{input}\nQuestion: Does this response answer the question? Answer Yes or No.",
+        "{input}\nQuestion: Is the response answer to the question? Answer Yes or No.",
+        "{input}\nQuestion: Does the given response address the question? Respond with Yes or No."
+    ],
+    "hellaswag": [
+        "The following are multiple choice questions (with answers) about commonsense NLI. Finish your answer with 'X' where X is the correct letter choice.\n\nQuestion: {input}",
+        "The following are multiple-choice questions about commonsense natural language inference. Answer with 'X', X being the correct option.\n\nQuestion: {input}",
+        "Answer these multiple-choice questions on commonsense language understanding. Conclude with 'X', where X is the right letter choice.\n\nQuestion: {input}"
+    ],
+    "crows_pairs": [
+        "{input}\nQuestion: Which sentence is more stereotypical? Answer A or B.",
+        "{input}\nQuestion: Which sentence contains more stereotypical content? Answer A or B.",
+        "{input}\nQuestion: Identify the sentence with stronger stereotypical elements. Respond with A or B."
+    ],
+    "boolq": [
+        "{input}\nAnswer True or False.",
+        "{input}\nRespond with True or False.",
+        "{input}\nIs this statement correct? Answer True or False."
+    ],
+    "math_qa": [
+        "The following are multiple choice questions (with answers) about math word problem. Finish your answer with 'X' where X is the correct letter choice.\n\nQuestion: {input}",
+        "Below are multiple-choice questions about math word problems. Answer with 'X', X being the correct option.\n\nQuestion: {input}",
+        "Solve these multiple-choice math word problems. Conclude with 'X', where X is the right letter choice.\n\nQuestion: {input}"
+    ],
+    "superglue_wic": [
+        "{input}\nQuestion: Is the word used in the same way in the two sentences above? Answer Yes or No.",
+        "{input}\nQuestion: Is the word used similarly in both sentences above? Respond with Yes or No.",
+        "{input}\nQuestion: Does the word have the same meaning in the two given sentences? Answer Yes or No."
+    ],
+    "openbookqa": [
+        "The following are multiple choice questions (with answers) about multi-step reasoning. Finish your answer with 'X' where X is the correct letter choice.\n\nQuestion: {input}",
+        "The following are multiple-choice questions testing multi-step reasoning. Answer with 'X', X being the correct option.\n\nQuestion: {input}",
+        "Answer these multiple-choice questions involving multi-step logical thinking. Conclude with 'X', where X is the right letter choice.\n\nQuestion: {input}"
+    ],
+    "commonsense_qa": [
+        "The following are multiple choice questions (with answers) about commonsense knowledge reasoning. Finish your answer with 'X' where X is the correct letter choice.\n\nQuestion: {input}",
+        "Below are multiple-choice questions about commonsense reasoning. Answer with 'X', X being the correct option.\n\nQuestion: {input}",
+        "Respond to these multiple-choice questions on commonsense knowledge. Conclude with 'X', where X is the right letter choice.\n\nQuestion: {input}"
+    ],
+    "bbq_age": [
+        "The following are multiple choice questions (with answers) about social bias on age. Finish your answer with 'X' where X is the correct letter choice.\n\nQuestion: {input}",
+        "The following are multiple-choice questions about age-related social bias. Answer with 'X', X being the correct option.\n\nQuestion: {input}",
+        "Answer these multiple-choice questions on social bias regarding age. Conclude with 'X', where X is the right letter choice.\n\nQuestion: {input}"
+    ],
+    "arc_challenge": [
+        "The following are multiple choice questions (with answers) about science. Finish your answer with 'X' where X is the correct letter choice.\n\nQuestion: {input}",
+        "Below are multiple-choice science questions. Answer with 'X', X being the correct option.\n\nQuestion: {input}",
+        "Respond to these multiple-choice questions on scientific topics. Conclude with 'X', where X is the right letter choice.\n\nQuestion: {input}"
+    ],
+    "glue_cola":[
+        "{input}\nQuestion: Does this sentence make sense? Answer Yes or No.",
+        "{input}\nQuestion: Is this sentence logically coherent? Respond with Yes or No.",
+        "{input}\nQuestion: Evaluate if this sentence is meaningful. Reply with Yes or No."
+    ],
+    "bbh_logical_deduction_five_objects":[
+        "A logical deduction task which requires deducing the order of a sequence of objects. Finish your answer with 'X' where X is the correct letter choice.\n\nQuestion: {input}",
+        "This challenge involves logically determining the sequence of a set of objects. Conclude your response with 'X', where X is the appropriate letter option.\n\nQuestion: {input}",
+        "In this logical reasoning exercise, deduce the correct order of a series of objects. End your answer with 'X', X being the right letter choice.\n\nQuestion: {input}"
+    ],
+    "mmlu_high_school_psychology": [
+        "The following are multiple choice questions (with answers) about high school psychology. Finish your answer with 'X' where X is the correct letter choice.\n\nQuestion: {input}",
+        "Below are multiple-choice questions testing high school level psychology knowledge. Conclude your response with 'X', X representing the correct option.\n\nQuestion: {input}",
+        "These questions assess understanding of high school psychology concepts. End your answer with 'X', where X is the letter of the correct choice.\n\nQuestion: {input}"
+    ],
+    "bbq_religion":[
+        "The following are multiple choice questions (with answers) about social bias on religion. Finish your answer with 'X' where X is the correct letter choice.\n\nQuestion: {input}",
+        "Here are multiple-choice questions addressing social biases related to religion. Conclude your answer with 'X', X being the correct letter option.\n\nQuestion: {input}",
+        "These questions explore social biases in the context of religion. End your response with 'X', where X represents the right letter choice.\n\nQuestion: {input}"
+    ],
+    "deepmind": [
+        "The following are multiple choice questions (with answers) about algebraic word problems. Finish your answer with 'X' where X is the correct letter choice.\n\nQuestion: {input}",
+        "Below are multiple-choice questions testing algebraic word problem solving skills. Conclude your answer with 'X', X being the correct option letter.\n\nQuestion: {input}",
+        "These questions assess your ability to solve algebraic word problems. End your response with 'X', where X is the letter of the right choice.\n\nQuestion: {input}"
+    ],
+    "gsm8k":[
+        "Question: {input}",
+        "Solve this math word problem: {input}",
+        "Find the mathematical solution to: {input}"
+    ],
+    "math_level_1":[
+        "Solve this algebra problem: {input}",
+        "Find the mathematical solution to: {input}",
+        "Provide a solution for this algebra problem: {input}"
+    ],
+    "math_level_2":[
+        "Solve this algebra problem: {input}",
+        "Find the mathematical solution to: {input}",
+        "Provide a solution for this algebra problem: {input}"
+    ],
+    "math_level_3":[
+        "Solve this algebra problem: {input}",
+        "Find the mathematical solution to: {input}",
+        "Provide a solution for this algebra problem: {input}"
+    ],
+    "math_level_4":[
+        "Solve this algebra problem: {input}",
+        "Find the mathematical solution to: {input}",
+        "Provide a solution for this algebra problem: {input}"
+    ],
+    "math_level_5":[
+        "Solve this algebra problem: {input}",
+        "Find the mathematical solution to: {input}",
+        "Provide a solution for this algebra problem: {input}"
+    ],
+    "mmlu_professional_law":[
+        "The following are multiple choice questions (with answers) about professional law. Finish your answer with 'X' where X is the correct letter choice.\n\nQuestion: {input}",
+        "Each legal question below has multiple answer choices. Mark your final answer with the correct letter choice.\n\nQuestion: {input}",
+        "Below you'll find law practice questions with provided answers. Select the right choice (A, B, C, or D) and end with that letter.\n\nQuestion: {input}"
+    ]
+}
