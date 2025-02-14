@@ -2,15 +2,15 @@
 <h5 align="center"> If our project helps you, please give us a star ⭐ and cite our <a href="#citation">paper</a>!</h2>
 <h5 align="center">
 
-## ELICIT
-![overview](./assets/overview.png)
+## Overview
+![overview](./assets/overview.png#pic_center=80x80)
 We propose ELICIT, improving language model performance by:
 1. **Building a Capability Library**: A collection of task-specific capabilities from in-domain datasets.
 2. **Dynamic Capability Elicitation**: Using a trained retriever to dynamically select relevant capabilities for aribitary query.
 
 
 ## Experiment Codes
-You can find our results at [here](https://drive.google.com/drive/folders/1cWvWc4uSSvEnhzs03EtqJGptBGUitpcf?usp=drive_link).
+You can find our results [here](https://drive.google.com/drive/folders/1cWvWc4uSSvEnhzs03EtqJGptBGUitpcf?usp=drive_link).
 ### Building the Capability Library
 
 The Capability Library is constructed using validation sets from in-domain tasks with 16-shot examples. Follow these steps:
