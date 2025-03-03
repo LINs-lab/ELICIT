@@ -29,15 +29,15 @@ The Capability Library is constructed using validation sets from in-domain tasks
    ./scripts/collect_tv.sh
    ```
 
-## Dynamic Capability Elicitation
+### Dynamic Capability Elicitation
 
-### Train the Retriever
+#### Train the Retriever
 We provide a balanced dataset of 10,000 samples to train the retriever:
 ```bash
 python train_retriever.py --output_model prompt_classifier_model.pth
 ```
 
-### Evaluate ELICIT
+#### Evaluate ELICIT
 Once the retriever is trained, you can evaluate ELICIT using the collected library:
 ```bash
 ./scripts/eval_elicit.sh
@@ -53,10 +53,12 @@ To analyze results:
 If you find this project helpful, please consider citing our work:
 
 ```bibtex
-@article{wang2024elicit,
-  title={ELICIT: LLM Augmentation via External In-Context Capability},
-  author={Wang, Futing and Yan, Jianhao and Zhang, Yue and Lin, Tao},
-  journal={arXiv preprint arXiv:2410.09343},
-  year={2024}
+@inproceedings{
+   wang2025elicit,
+   title={{ELICIT}: {LLM} Augmentation Via External In-context Capability},
+   author={Futing Wang and Jianhao Yan and Yue Zhang and Tao Lin},
+   booktitle={The Thirteenth International Conference on Learning Representations},
+   year={2025},
+   url={https://openreview.net/forum?id=CI4sCBMXjP}
 }
 ```
